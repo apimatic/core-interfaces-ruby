@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = 'apimatic-core-interfaces'
+  s.name = 'apimatic_core_interfaces'
   s.version = '0.1.0'
   s.summary = 'An abstract layer of the functionalities provided by apimatic-core, faraday-client-adapter and '\
               'APIMatic SDKs.'

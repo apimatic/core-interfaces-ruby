@@ -6,7 +6,8 @@ module CoreLibrary
   class Authentication
 
     # Checks whether this authentication scheme is valid or not.
-    def valid?
+    # @return [Boolean] True if the auth instance is valid to be applied on the request.
+    def valid
       raise NotImplementedError, 'This method needs
           to be implemented in a child class.'
     end

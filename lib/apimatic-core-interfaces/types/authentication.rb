@@ -1,6 +1,5 @@
 module CoreLibrary
   # An interface for authenticating the HTTP requests.
-  #
   # This class should not be instantiated but should be used as a base class
   # for authenticating the request.
   class Authentication

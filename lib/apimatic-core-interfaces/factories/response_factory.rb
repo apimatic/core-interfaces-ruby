@@ -1,6 +1,5 @@
 module CoreLibrary
   # An interface for the creation of SDK HttpResponse.
-  #
   # This class should not be instantiated but should be used as a base class
   # for the HttpResponse creation.
   class ResponseFactory

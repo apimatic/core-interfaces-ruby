@@ -1,6 +1,5 @@
 module CoreLibrary
   # An interface for the methods that an HTTP Client Configuration must implement.
-  #
   # This class should not be instantiated but should be used as a base class
   # for HTTP Client Configuration class.
   class ClientConfiguration

@@ -1,6 +1,5 @@
 module CoreLibrary
   # HttpCallBack allows defining callables for pre and post API calls.
-  #
   # This class should not be instantiated but should be used as a base class
   # for capturing the request and response of an API call.
   class HttpCallback

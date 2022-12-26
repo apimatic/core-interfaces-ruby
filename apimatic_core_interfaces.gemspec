@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
                   'core library module. The goal is to support scalability and feature enhancement of the core '\
                   'library and the SDKs along with avoiding any breaking changes by reducing tight coupling between '\
                   'modules through the introduction of interfaces.'
-  s.authors = ['APIMatic']
+  s.authors = ['APIMatic Ltd.']
   s.email = 'support@apimatic.io'
   s.homepage = 'https://apimatic.io'
   s.license = 'APIMATIC REFERENCE SOURCE LICENSE'

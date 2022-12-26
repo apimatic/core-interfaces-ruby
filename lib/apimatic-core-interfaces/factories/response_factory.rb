@@ -4,7 +4,6 @@ module CoreLibrary
   # This class should not be instantiated but should be used as a base class
   # for the HttpResponse creation.
   class ResponseFactory
-
     # The factory method for creating HttpResponse type.
     # @param [Integer] _status_code The status code returned by the server.
     # @param [String] _reason_phrase The reason phrase returned by the server.

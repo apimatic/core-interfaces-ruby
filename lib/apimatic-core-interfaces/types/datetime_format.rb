@@ -1,7 +1,6 @@
 module CoreLibrary
   # Date Time Formats Enumeration.
   class DateTimeFormat
-
     # Members:
     #     HTTP_DATE_TIME: RFC 1123 Date-Time format
     #     UNIX_DATE_TIME: Unix Timestamp Format

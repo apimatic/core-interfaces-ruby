@@ -4,7 +4,6 @@ module CoreLibrary
   # This class should not be instantiated but should be used as a base class
   # for capturing the request and response of an API call.
   class HttpCallback
-
     # A controller will call this method before making an HTTP Request.
     # @param [HttpRequest] _http_request The HttpRequest object which the HttpClient will execute.
     def on_before_request(_http_request)

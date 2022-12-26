@@ -4,7 +4,6 @@ module CoreLibrary
   # This class should not be instantiated but should be used as a base class
   # for authenticating the request.
   class Authentication
-
     # Checks whether this authentication scheme is valid or not.
     # @return [Boolean] True if the auth instance is valid to be applied on the request.
     def valid

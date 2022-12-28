@@ -28,7 +28,7 @@ gem 'apimatic_core_interfaces'
 | [`HttpClient`](lib/apimatic-core-interfaces/client/http_client.rb)                   | To save both Request and Response after the completion of response                         |
 | [`ResponseFactory`](lib/apimatic-core-interfaces/factories/response_factory.rb)      | To convert the client-adapter response into a custom HTTP response                         |
 | [`Authentication`](lib/apimatic-core-interfaces/types/authentication.rb)             | To setup methods for the validation and application of the required authentication scheme  |
-| [`ClientConfiguration`](lib/apimatic-core-interfaces/client/client_configuration.rb) | To setup the http client configurations including retries, timeouts and connections etc  |
+| [`ClientConfiguration`](lib/apimatic-core-interfaces/client/client_configuration.rb) | To setup the http client configurations including retries, timeouts and connections etc.  |
 
 
 ## Enumerations

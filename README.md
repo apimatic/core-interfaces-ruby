@@ -1,6 +1,7 @@
 # core-interfaces-ruby
 
 [//]: # ([![PyPI][rubymine-version]]&#40;https://pypi.org/project/apimatic-core-interfaces/&#41;)
+[![Maintainability][maintainability-url]][code-climate-url]
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 [![Licence][license-badge]][license-url]
 
@@ -33,11 +34,13 @@ gem 'apimatic_core_interfaces'
 ## Enumerations
 | Name                                                                                           | Description                                                    |
 |------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [`DateTimeFormat`](lib/apimatic-core-interfaces/types/datetime_format.rb)                      | Enumeration containing different datetime formats              |
-| [`HttpMethod`](lib/apimatic-core-interfaces/types/http_method.rb)                              | Enumeration containing HTTP Methods (GET, POST, PATCH, DELETE) |
-| [`ArraySerializationFormat`](lib/apimatic-core-interfaces/types/array_serialization_format.rb) | Enumeration containing different array serialization formats   |
+| [`DateTimeFormat`](lib/apimatic-core-interfaces/types/datetime_format.rb)                      | Enumeration containing different datetime formats (RFC1123, RFC3339, UNIX_TIMESTAMP)              |
+| [`HttpMethod`](lib/apimatic-core-interfaces/types/http_method.rb)                              | Enumeration containing HTTP Methods (GET, PUT, POST, PATCH, DELETE, HEAD) |
+| [`ArraySerializationFormat`](lib/apimatic-core-interfaces/types/array_serialization_format.rb) | Enumeration containing different array serialization formats (INDEXED, UNINDEXED, PLAIN, CSV, PSV, TSV)  |
 
 [rubymine-version]: https://img.shields.io/pypi/v/apimatic-core-interfaces
+[code-climate-url]: https://codeclimate.com/github/apimatic/core-interfaces-ruby
+[maintainability-url]: https://api.codeclimate.com/v1/badges/6557a25e71f7e97e4bb5/maintainability
 [license-badge]: https://img.shields.io/badge/licence-APIMATIC-blue
 [license-url]: LICENSE
 

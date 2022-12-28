@@ -1,9 +1,9 @@
 # apimatic-core-interfaces
 
 [//]: # ([![PyPI][rubygems-version]]&#40;https://pypi.org/project/apimatic-core-interfaces/&#41;)
-[![Maintainability][maintainability-url]][code-climate-url]
 [![Linting][lint-badge]][lint-url]
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
+[![Maintainability][maintainability-url]][code-climate-url]
 [![Licence][license-badge]][license-url]
 
 ## Introduction

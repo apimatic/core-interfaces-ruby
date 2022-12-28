@@ -1,4 +1,4 @@
-# core-interfaces-ruby
+# apimatic-core-interfaces
 
 [//]: # ([![PyPI][rubygems-version]]&#40;https://pypi.org/project/apimatic-core-interfaces/&#41;)
 [![Maintainability][maintainability-url]][code-climate-url]

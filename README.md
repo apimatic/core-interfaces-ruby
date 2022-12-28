@@ -1,6 +1,6 @@
 # apimatic-core-interfaces
 
-[//]: # ([![PyPI][rubygems-version]]&#40;https://pypi.org/project/apimatic-core-interfaces/&#41;)
+[![Gem Version](https://badge.fury.io/rb/apimatic_core_interfaces.svg)](https://badge.fury.io/rb/apimatic_core_interfaces)
 [![Linting][lint-badge]][lint-url]
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 [![Maintainability][maintainability-url]][code-climate-url]
@@ -39,11 +39,9 @@ gem 'apimatic_core_interfaces'
 | [`HttpMethod`](lib/apimatic-core-interfaces/types/http_method.rb)                              | Enumeration containing HTTP Methods (GET, PUT, POST, PATCH, DELETE, HEAD) |
 | [`ArraySerializationFormat`](lib/apimatic-core-interfaces/types/array_serialization_format.rb) | Enumeration containing different array serialization formats (INDEXED, UNINDEXED, PLAIN, CSV, PSV, TSV)  |
 
-[rubymine-version]: https://img.shields.io/pypi/v/apimatic-core-interfaces
 [lint-badge]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml/badge.svg
 [lint-url]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml
 [code-climate-url]: https://codeclimate.com/github/apimatic/core-interfaces-ruby
 [maintainability-url]: https://api.codeclimate.com/v1/badges/6557a25e71f7e97e4bb5/maintainability
 [license-badge]: https://img.shields.io/badge/licence-APIMATIC-blue
 [license-url]: LICENSE
-

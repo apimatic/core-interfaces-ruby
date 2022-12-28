@@ -1,7 +1,8 @@
 # core-interfaces-ruby
 
-[//]: # ([![PyPI][rubymine-version]]&#40;https://pypi.org/project/apimatic-core-interfaces/&#41;)
+[//]: # ([![PyPI][rubygems-version]]&#40;https://pypi.org/project/apimatic-core-interfaces/&#41;)
 [![Maintainability][maintainability-url]][code-climate-url]
+[![Linting][lint-badge]][lint-url]
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 [![Licence][license-badge]][license-url]
 
@@ -39,6 +40,8 @@ gem 'apimatic_core_interfaces'
 | [`ArraySerializationFormat`](lib/apimatic-core-interfaces/types/array_serialization_format.rb) | Enumeration containing different array serialization formats (INDEXED, UNINDEXED, PLAIN, CSV, PSV, TSV)  |
 
 [rubymine-version]: https://img.shields.io/pypi/v/apimatic-core-interfaces
+[lint-badge]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml/badge.svg
+[lint-url]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml
 [code-climate-url]: https://codeclimate.com/github/apimatic/core-interfaces-ruby
 [maintainability-url]: https://api.codeclimate.com/v1/badges/6557a25e71f7e97e4bb5/maintainability
 [license-badge]: https://img.shields.io/badge/licence-APIMATIC-blue

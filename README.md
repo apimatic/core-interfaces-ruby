@@ -43,5 +43,5 @@ gem 'apimatic_core_interfaces'
 [lint-url]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml
 [code-climate-url]: https://codeclimate.com/github/apimatic/core-interfaces-ruby
 [maintainability-url]: https://api.codeclimate.com/v1/badges/6557a25e71f7e97e4bb5/maintainability
-[license-badge]: https://img.shields.io/badge/licence-APIMATIC-blue
+[license-badge]: https://img.shields.io/badge/licence-MIT-blue
 [license-url]: LICENSE

@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ['APIMatic Ltd.']
   s.email = 'support@apimatic.io'
   s.homepage = 'https://apimatic.io'
-  s.license = 'APIMATIC REFERENCE SOURCE LICENSE'
+  s.license = 'MIT'
   s.required_ruby_version = ['>= 2.6']
   s.files = Dir['{lib}/**/*', 'README*', 'LICENSE*']
   s.require_paths = ['lib']

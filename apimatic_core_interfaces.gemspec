@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'apimatic_core_interfaces'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.summary = 'An abstract layer of the functionalities provided by apimatic-core, faraday-client-adapter and '\
               'APIMatic SDKs.'
   s.description = 'This project contains the abstract layer for APIMatic\'s core library.'\
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ['APIMatic Ltd.']
   s.email = 'support@apimatic.io'
   s.homepage = 'https://apimatic.io'
-  s.license = 'APIMATIC REFERENCE SOURCE LICENSE'
+  s.license = 'MIT'
   s.required_ruby_version = ['>= 2.6']
   s.files = Dir['{lib}/**/*', 'README*', 'LICENSE*']
   s.require_paths = ['lib']

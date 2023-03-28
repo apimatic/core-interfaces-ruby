@@ -10,7 +10,7 @@
 This project contains the abstract layer for core library ruby. The purpose of creating interfaces is to separate out the functionalities needed by ruby core library. The goal is to support scalability and feature enhancement of the core library and the SDKs along with avoiding any breaking changes by reducing tight coupling between modules through the introduction of interfaces.
 
 ## Version supported
-Currently APIMatic supports  `2.6 <= Ruby version < 3.1`  hence core-interfaces-ruby will need the same versions to be supported.
+Currently APIMatic supports  `2.6 <= Ruby version <= 3.2`  hence core-interfaces-ruby will need the same versions to be supported.
 
 ## Installation
 Installation is quite simple, just execute the following command:

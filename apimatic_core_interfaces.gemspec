@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'apimatic_core_interfaces'
-  s.version = '0.1.1'
+  s.version = '0.1.2'
   s.summary = 'An abstract layer of the functionalities provided by apimatic-core, faraday-client-adapter and '\
               'APIMatic SDKs.'
   s.description = 'This project contains the abstract layer for APIMatic\'s core library.'\

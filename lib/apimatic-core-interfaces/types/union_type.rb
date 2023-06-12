@@ -1,5 +1,4 @@
 module CoreLibrary
-
   # Represents a union type that can validate and deserialize values based on a set of allowed types.
   class UnionType
     # NATIVE_TYPES represents the list of native types in Ruby.

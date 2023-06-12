@@ -1,8 +1,17 @@
 module CoreLibrary
-  # Represents a union type that can validate and deserialize values based on a set of allowed types.
 
+  # Represents a union type that can validate and deserialize values based on a set of allowed types.
   class UnionType
-    NATIVE_TYPES = [Integer, String, Float, TrueClass, FalseClass]
+    # NATIVE_TYPES represents the list of native types in Ruby.
+    # These types are commonly used and built-in to the Ruby language.
+    # The constant contains the following types:
+    # - Integer: Represents whole numbers without a decimal point.
+    # - String: Represents a sequence of characters.
+    # - Float: Represents floating-point numbers with a decimal point.
+    # - TrueClass: Represents the boolean value `true`.
+    # - FalseClass: Represents the boolean value `false`.
+    # This constant is used within the UnionType class to define the allowed native types.
+    NATIVE_TYPES = [Integer, String, Float, TrueClass, FalseClass].freeze
 
     # Initializes a new instance of UnionType.
     # @param union_types [Array<Class>] An array of allowed types for the union.

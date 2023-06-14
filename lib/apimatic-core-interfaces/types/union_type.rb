@@ -12,6 +12,8 @@ module CoreLibrary
     # This constant is used within the UnionType class to define the allowed native types.
     NATIVE_TYPES = [Integer, String, Float, TrueClass, FalseClass].freeze
 
+    attr_accessor :is_valid, :error_messages
+    attr_reader :union_type_context, :union_types
     # Initializes a new instance of UnionType.
     # @param union_types [Array<Class>] An array of allowed types for the union.
     # @param union_type_context [Object] The context of the union type.
@@ -38,12 +40,6 @@ module CoreLibrary
     def deserialize(value)
       raise NotImplementedError, 'This method needs
           to be implemented in a child class.'
-    end
-
-    # Gets the context of the union type.
-    # @return [Object] The context of the union type.
-    def get_context
-      @union_type_context
     end
   end
 end

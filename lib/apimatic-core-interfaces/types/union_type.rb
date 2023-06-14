@@ -14,7 +14,7 @@ module CoreLibrary
 
     attr_accessor :is_valid, :error_messages
     attr_reader :union_type_context, :union_types
-    
+
     # Initializes a new instance of UnionType.
     # @param union_types [Array<Class>] An array of allowed types for the union.
     # @param union_type_context [Object] The context of the union type.

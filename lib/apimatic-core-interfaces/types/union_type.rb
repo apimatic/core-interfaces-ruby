@@ -38,7 +38,7 @@ module CoreLibrary
     # @param value [Object] The value to deserialize.
     # @param should_symbolize [Boolean] Indicates whether the deserialized value should be symbolized.
     # @raise [NotImplementedError] If the method is not implemented in a subclass.
-    def deserialize(value, should_symbolize = false)
+    def deserialize(value, should_symbolize: false)
       raise NotImplementedError, 'This method needs
           to be implemented in a child class.'
     end

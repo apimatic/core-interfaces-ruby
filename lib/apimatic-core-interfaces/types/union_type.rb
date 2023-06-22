@@ -33,6 +33,15 @@ module CoreLibrary
           to be implemented in a child class.'
     end
 
+    # Serializes a given value.
+    # @param value [Object] The value to be serialized.
+    # @raise [NotImplementedError] If the method is not implemented in the child class.
+    # @return [String] The serialized representation of the value.
+    def serialize(value)
+      raise NotImplementedError, 'This method needs
+          to be implemented in a child class.'
+    end
+
     # Deserializes a value based on the union type.
     # This method should be implemented by subclasses.
     # @param value [Object] The value to deserialize.

@@ -30,7 +30,8 @@ gem 'apimatic_core_interfaces'
 | [`ResponseFactory`](lib/apimatic-core-interfaces/factories/response_factory.rb)      | To convert the client-adapter response into a custom HTTP response                                |
 | [`Authentication`](lib/apimatic-core-interfaces/types/authentication.rb)             | To setup methods for the validation and application of the required authentication scheme         |
 | [`UnionType`](lib/apimatic-core-interfaces/types/union_type.rb)                      | To setup methods for the validation, serialization and deserialization of OneOf/AnyOf union types |
-| [`ClientConfiguration`](lib/apimatic-core-interfaces/client/client_configuration.rb) | To setup the http client configurations including retries, timeouts and connections etc.          |
+| [`ApiLogger`](lib/apimatic-core-interfaces/logger/api_logger.rb) | An interface for logging API requests and responses.                                                               |
+| [`Logger`](lib/apimatic-core-interfaces/logger/logger.rb) | An interface for the generic logger facade |
 
 
 ## Enumerations

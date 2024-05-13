@@ -3,6 +3,9 @@ require_relative 'apimatic-core-interfaces/client/client_configuration'
 
 require_relative 'apimatic-core-interfaces/factories/response_factory'
 
+require_relative 'apimatic-core-interfaces/logger/logger'
+require_relative 'apimatic-core-interfaces/logger/api_logger'
+
 require_relative 'apimatic-core-interfaces/types/authentication'
 require_relative 'apimatic-core-interfaces/types/union_type'
 require_relative 'apimatic-core-interfaces/types/http_callback'

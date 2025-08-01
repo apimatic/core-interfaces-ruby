@@ -3,7 +3,8 @@
 [![Gem Version](https://badge.fury.io/rb/apimatic_core_interfaces.svg)](https://badge.fury.io/rb/apimatic_core_interfaces)
 [![Linting][lint-badge]][lint-url]
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
-[![Maintainability][maintainability-url]][code-climate-url]
+[![Maintainability Rating][maintainability-badge]][maintainability-url]
+[![Vulnerabilities][vulnerabilities-badge]][vulnerabilities-url]
 [![Licence][license-badge]][license-url]
 
 ## Introduction
@@ -43,7 +44,9 @@ gem 'apimatic_core_interfaces'
 
 [lint-badge]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml/badge.svg
 [lint-url]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml
-[code-climate-url]: https://codeclimate.com/github/apimatic/core-interfaces-ruby
-[maintainability-url]: https://api.codeclimate.com/v1/badges/6557a25e71f7e97e4bb5/maintainability
+[maintainability-badge]: https://sonarcloud.io/api/project_badges/measure?project=apimatic_core-interfaces-ruby&metric=sqale_rating
+[maintainability-url]: https://sonarcloud.io/summary/new_code?id=apimatic_core-interfaces-ruby
+[vulnerabilities-badge]: https://sonarcloud.io/api/project_badges/measure?project=apimatic_core-interfaces-ruby&metric=vulnerabilities
+[vulnerabilities-url]: https://sonarcloud.io/summary/new_code?id=apimatic_core-interfaces-ruby
 [license-badge]: https://img.shields.io/badge/licence-MIT-blue
 [license-url]: LICENSE

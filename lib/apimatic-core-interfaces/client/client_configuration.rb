@@ -4,6 +4,7 @@ module CoreLibrary
   # for HTTP Client Configuration class.
   class ClientConfiguration
     attr_reader :timeout, :max_retries, :retry_interval, :backoff_factor, :retry_statuses,
-                :retry_methods, :connection, :adapter, :response_factory, :cache, :verify
+                :retry_methods, :connection, :adapter, :response_factory, :cache, :verify,
+                :proxy_settings
   end
 end

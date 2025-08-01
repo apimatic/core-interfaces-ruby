@@ -35,3 +35,10 @@ jobs:
 
     - name: Run Rubocop
       run: bundle exec rubocop
+
+    - name: SonarQube Scan
+      if: ${{ matrix.ruby-version == '3.2' && github.actor != 'dependabot[bot]' }}
+      uses: SonarSource/sonarqube-scan-action@v5.2.0
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

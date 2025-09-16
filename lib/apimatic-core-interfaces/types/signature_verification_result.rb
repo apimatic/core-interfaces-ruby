@@ -8,8 +8,11 @@ module CoreLibrary
     attr_reader :ok, :error
 
     def initialize(ok:, error: nil)
-      @ok = ok
-      @error = error
+      if ok && !error.nil?
+        raise ArgumentError, "When ok is true, error must be nil."
+      elsif !ok && error.nil?
+        raise ArgumentError, "When ok is false, error must be provided."
+      end
     end
 
     def self.passed

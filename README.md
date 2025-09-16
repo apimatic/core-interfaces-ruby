@@ -37,9 +37,9 @@ gem 'apimatic_core_interfaces'
 | [`SignatureVerifier`](lib/apimatic-core-interfaces/security/signature_verifier.rb) | An interface representing that defines the contract for verifying the authenticity of incoming events or webhook requests. |
 
 ## Types
-| Name                                                                                                 | Description                                                                          |
-|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [`SignatureVerificationResult`](lib/apimatic-core-interfaces/types/signature_verification_result.rb) | Enumeration containing different datetime formats (RFC1123, RFC3339, UNIX_TIMESTAMP) |
+| Name                                                                                                 | Description                                                                                            |
+|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [`SignatureVerificationResult`](lib/apimatic-core-interfaces/types/signature_verification_result.rb) | Model representing result of a signature verification process i.e success, failure, invalid signature. |
 
 ## Enumerations
 | Name                                                                                           | Description                                                                                             |

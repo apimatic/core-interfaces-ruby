@@ -3,8 +3,6 @@ require_relative 'apimatic-core-interfaces/client/client_configuration'
 
 require_relative 'apimatic-core-interfaces/factories/response_factory'
 
-require_relative 'apimatic-core-interfaces/http/request'
-
 require_relative 'apimatic-core-interfaces/logger/logger'
 require_relative 'apimatic-core-interfaces/logger/api_logger'
 

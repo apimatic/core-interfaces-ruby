@@ -33,7 +33,6 @@ gem 'apimatic_core_interfaces'
 | [`UnionType`](lib/apimatic-core-interfaces/types/union_type.rb)                    | To setup methods for the validation, serialization and deserialization of OneOf/AnyOf union types                          |
 | [`ApiLogger`](lib/apimatic-core-interfaces/logger/api_logger.rb)                   | An interface for logging API requests and responses.                                                                       |
 | [`Logger`](lib/apimatic-core-interfaces/logger/logger.rb)                          | An interface for the generic logger facade                                                                                 |
-| [`Request`](lib/apimatic-core-interfaces/http/request.rb)                          | An interface representing framework-agnostic request capturing headers, method, path, body, and raw bytes                  |
 | [`SignatureVerifier`](lib/apimatic-core-interfaces/security/signature_verifier.rb) | An interface representing that defines the contract for verifying the authenticity of incoming events or webhook requests. |
 
 ## Types

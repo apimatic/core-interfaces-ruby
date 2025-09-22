@@ -33,12 +33,12 @@ gem 'apimatic_core_interfaces'
 | [`UnionType`](lib/apimatic-core-interfaces/types/union_type.rb)                    | To setup methods for the validation, serialization and deserialization of OneOf/AnyOf union types                          |
 | [`ApiLogger`](lib/apimatic-core-interfaces/logger/api_logger.rb)                   | An interface for logging API requests and responses.                                                                       |
 | [`Logger`](lib/apimatic-core-interfaces/logger/logger.rb)                          | An interface for the generic logger facade                                                                                 |
-| [`SignatureVerifier`](lib/apimatic-core-interfaces/security/signature_verifier.rb) | An interface representing that defines the contract for verifying the authenticity of incoming events or webhook requests. |
+| [`SignatureVerifier`](lib/apimatic-core-interfaces/security/signature_verifier.rb) | Interface for verifying webhook event authenticity.                                                                        |
 
 ## Types
 | Name                                                                                                 | Description                                                                                            |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [`SignatureVerificationResult`](lib/apimatic-core-interfaces/types/signature_verification_result.rb) | Model representing result of a signature verification process i.e success, failure, invalid signature. |
+| [`SignatureVerificationResult`](lib/apimatic-core-interfaces/types/signature_verification_result.rb) | Model representing the outcome of signature verification (success or failure with errors).             |
 
 ## Enumerations
 | Name                                                                                           | Description                                                                                             |

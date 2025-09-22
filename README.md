@@ -46,6 +46,7 @@ gem 'apimatic_core_interfaces'
 | [`DateTimeFormat`](lib/apimatic-core-interfaces/types/datetime_format.rb)                      | Enumeration containing different datetime formats (RFC1123, RFC3339, UNIX_TIMESTAMP)                    |
 | [`HttpMethod`](lib/apimatic-core-interfaces/types/http_method.rb)                              | Enumeration containing HTTP Methods (GET, PUT, POST, PATCH, DELETE, HEAD)                               |
 | [`ArraySerializationFormat`](lib/apimatic-core-interfaces/types/array_serialization_format.rb) | Enumeration containing different array serialization formats (INDEXED, UNINDEXED, PLAIN, CSV, PSV, TSV) |
+
 [lint-badge]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml/badge.svg
 [lint-url]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml
 [maintainability-badge]: https://sonarcloud.io/api/project_badges/measure?project=apimatic_core-interfaces-ruby&metric=sqale_rating

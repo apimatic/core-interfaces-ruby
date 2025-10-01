@@ -3,7 +3,7 @@ module CoreLibrary
     # Outcome of signature verification.
     # Attributes:
     #   ok: true if the signature verification passed.
-    #   errors: list of exceptions raised by the verifier. nil when ok is true.
+    #   errors: list of error messages raised by the verifier. nil when ok is true.
 
     attr_reader :ok, :errors
 

@@ -5,7 +5,7 @@ module CoreLibrary
   class SignatureVerifier
     # Verifies the signature of the given HTTP request.
     #
-    # @param request [CoreLibrary::HttpRequest] The HTTP request to verify.
+    # @param request [Rack::Request] The rack request to verify.
     # @return [CoreLibrary::SignatureVerificationResult] The result of signature verification.
     #
     # Notes:

@@ -25,22 +25,27 @@ gem 'apimatic_core_interfaces'
 ```
 
 ## Interfaces
-| Name                                                                                 | Description                                                                                       |
-|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [`HttpClient`](lib/apimatic-core-interfaces/client/http_client.rb)                   | To save both Request and Response after the completion of response                                |
-| [`ResponseFactory`](lib/apimatic-core-interfaces/factories/response_factory.rb)      | To convert the client-adapter response into a custom HTTP response                                |
-| [`Authentication`](lib/apimatic-core-interfaces/types/authentication.rb)             | To setup methods for the validation and application of the required authentication scheme         |
-| [`UnionType`](lib/apimatic-core-interfaces/types/union_type.rb)                      | To setup methods for the validation, serialization and deserialization of OneOf/AnyOf union types |
-| [`ApiLogger`](lib/apimatic-core-interfaces/logger/api_logger.rb) | An interface for logging API requests and responses.                                                               |
-| [`Logger`](lib/apimatic-core-interfaces/logger/logger.rb) | An interface for the generic logger facade |
+| Name                                                                               | Description                                                                                                                |
+|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| [`HttpClient`](lib/apimatic-core-interfaces/client/http_client.rb)                 | To save both Request and Response after the completion of response                                                         |
+| [`ResponseFactory`](lib/apimatic-core-interfaces/factories/response_factory.rb)    | To convert the client-adapter response into a custom HTTP response                                                         |
+| [`Authentication`](lib/apimatic-core-interfaces/types/authentication.rb)           | To setup methods for the validation and application of the required authentication scheme                                  |
+| [`UnionType`](lib/apimatic-core-interfaces/types/union_type.rb)                    | To setup methods for the validation, serialization and deserialization of OneOf/AnyOf union types                          |
+| [`ApiLogger`](lib/apimatic-core-interfaces/logger/api_logger.rb)                   | An interface for logging API requests and responses.                                                                       |
+| [`Logger`](lib/apimatic-core-interfaces/logger/logger.rb)                          | An interface for the generic logger facade                                                                                 |
+| [`SignatureVerifier`](lib/apimatic-core-interfaces/security/signature_verifier.rb) | Interface for verifying webhook event authenticity.                                                                        |
 
+## Types
+| Name                                                                                                 | Description                                                                                            |
+|------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| [`SignatureVerificationResult`](lib/apimatic-core-interfaces/types/signature_verification_result.rb) | Model representing the outcome of signature verification (success or failure with errors).             |
 
 ## Enumerations
-| Name                                                                                           | Description                                                    |
-|------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [`DateTimeFormat`](lib/apimatic-core-interfaces/types/datetime_format.rb)                      | Enumeration containing different datetime formats (RFC1123, RFC3339, UNIX_TIMESTAMP)              |
-| [`HttpMethod`](lib/apimatic-core-interfaces/types/http_method.rb)                              | Enumeration containing HTTP Methods (GET, PUT, POST, PATCH, DELETE, HEAD) |
-| [`ArraySerializationFormat`](lib/apimatic-core-interfaces/types/array_serialization_format.rb) | Enumeration containing different array serialization formats (INDEXED, UNINDEXED, PLAIN, CSV, PSV, TSV)  |
+| Name                                                                                           | Description                                                                                             |
+|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`DateTimeFormat`](lib/apimatic-core-interfaces/types/datetime_format.rb)                      | Enumeration containing different datetime formats (RFC1123, RFC3339, UNIX_TIMESTAMP)                    |
+| [`HttpMethod`](lib/apimatic-core-interfaces/types/http_method.rb)                              | Enumeration containing HTTP Methods (GET, PUT, POST, PATCH, DELETE, HEAD)                               |
+| [`ArraySerializationFormat`](lib/apimatic-core-interfaces/types/array_serialization_format.rb) | Enumeration containing different array serialization formats (INDEXED, UNINDEXED, PLAIN, CSV, PSV, TSV) |
 
 [lint-badge]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml/badge.svg
 [lint-url]: https://github.com/apimatic/core-interfaces-ruby/actions/workflows/lint-runner.yml

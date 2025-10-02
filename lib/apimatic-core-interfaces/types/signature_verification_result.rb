@@ -1,4 +1,5 @@
 module CoreLibrary
+  # Represents the result of signature verification.
   class SignatureVerificationResult
     # Outcome of signature verification.
     # Attributes:
